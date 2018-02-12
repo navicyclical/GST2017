@@ -1,0 +1,57 @@
+.mainContainer {
+
+}
+
+.helpbox {
+  position: fixed;
+  height: 75px;
+  width: 25px;
+  right: 1px;
+  top: 20px;
+  background: blue;
+  border: 1px solid blue;
+  border-radius: 25%;
+}
+
+.wrapper {
+  text-align: center;
+  position: relative;
+  width: 800px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  border: 1px solid black;
+  transform: translate(-50%, 50%);
+}
+.wrapper > div {
+  display: inline-grid;
+  height:100px;
+  width: 100px;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+.wrapper h3{
+  padding-left: 10px;
+  margin-left: 0;
+}
+.one {
+  background: white;
+}
+.two {
+  background: red;
+}
+.three {
+  background: yellow;
+}
+.four {
+  background: green;
+}
+.five {
+  background: purple;
+}
+.six {
+  background: brown;
+}
+.seven {
+  background: orange;
+}
